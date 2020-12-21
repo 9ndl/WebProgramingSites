@@ -1,0 +1,86 @@
+/*Name: Yasser Alsaif
+HW10 Kevin BaconCSS file
+*/
+
+/*html body style*/
+body {
+    background-color:#dad9d4; 
+    font-family: Verdana, sans-serif;
+    margin: 0px;
+}
+
+
+#box {
+    /*main box for the site with auto margins to make it in the center*/
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%; 
+    background-color: white; 
+    box-shadow: 0px 0px 10px gray;
+}
+
+#top {
+    /*the top banner box with padding*/
+    background-image: url("http://allisonobourn.com/337/images/kevinbacon/banner-background.png"); 
+    display: flex; 
+    padding: 8px; 
+}
+
+#toptext {
+    /*text next to the logo in white */
+    margin:0px;
+    margin-top: 30px; 
+    margin-left: 10px; 
+    color: white; 
+    
+}
+
+#text, #text1 {
+    /*main box text to make it in the center*/
+    text-align: center; 
+}
+
+#searches { 
+    /*the div that holds the search boxes with auto margins to center it */
+    margin-left: auto;
+    margin-right: auto;
+    width:40%;
+}
+
+#bottom {
+    /*the bottom banner with flex to have the validator next to each other*/
+    background-image: url("http://allisonobourn.com/337/images/kevinbacon/banner-background.png"); 
+    display: flex; 
+    padding: 8px; 
+}
+
+#pic {
+    /*kevin bacon's picture in the center of the page*/
+    text-align: center;
+}
+#tablediv {
+    /*div that holds the resulting table, in the center*/
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+}
+tr:nth-child(even) {
+    /*every even row in the table with with this background color*/
+    background-color: #dad9d4;
+}
+#t1 {
+    /*table properties*/
+    border: 2px solid #f2f2f2;
+    text-align: center;
+    width: 100%;
+    margin: 5px;
+}
+td { 
+    /*center content of the table*/
+    text-align: center;
+}
+fieldset {
+    /*set up for the search box as fieldset, in the center*/
+    margin: 8px;
+    text-align: center;
+}

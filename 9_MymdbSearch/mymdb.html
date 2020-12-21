@@ -1,0 +1,60 @@
+<!--Name: Yasser Alsaif
+    Class: CSC 337 
+    Date: 4/12/2019
+    HW10 kevin bacon HTML file
+-->
+
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+        <meta charset="utf-8">
+        <!--the icon of the page-->
+        <link rel="shortcut icon" href="http://allisonobourn.com/337/images/kevinbacon/favicon.png">
+		<link rel="stylesheet" type="text/css" href="mymdb.css" />
+        <script src="mymdb.js"></script>
+        <!--title of the page-->
+        <title>Kevin Bacon</title>
+    </head>
+    
+	<body>
+    <!--main box for the page-->
+    <div id = "box"> 
+        <!--the top banner with the logo img and its text-->
+        <div id = "top"> 
+            <img src="http://allisonobourn.com/337/images/kevinbacon/mymdb.png" alt="logo"/>
+            <p id = "toptext"> <strong>My Movie Database</strong></p>
+        </div>
+        <!--the text in the page -->
+        <h1 id = "text">The One Degree of Kevin Bacon</h1> 
+        <p id = "text1">Type in the actor's name to see if he/she was ever in a movie with Kevin Bacon!</p>
+        <!--Kevin's Bacon picture-->
+        <div id = "pic">
+            <img src="http://allisonobourn.com/337/images/kevinbacon/kevin_bacon.jpg" alt="kevin bacon"/>
+        </div>
+        <!--the div that would hold the resulting table-->
+        <div id = "tablediv"></div>
+        <!--search div that hold the 2 searches-->
+        <div id = "searches">
+                <!--2 fieldset, 1 for each -->
+            <fieldset>
+                <legend>All Movies</legend>
+                <input type="text" placeholder = "First name" id="first1" />
+                <input type="text" placeholder = "Last name" id="last1" />
+                <button id="search1">go</button>
+            </fieldset>
+            <fieldset>
+                <legend>Movies With Kevin Bacon</legend>
+                <input type="text" placeholder = "First name" id ="first2" />
+                <input type="text" placeholder = "Last name" id ="last2" />
+                <button id="search2">go</button>
+            </fieldset>
+        </div>
+        <!--the botom banner with rhe validators-->
+        <div id = "bottom"> 
+            <a href="https://validator.w3.org/"> <img src="w3c-html.png" alt="Critic" /> </a>
+			<a href="https://jigsaw.w3.org/css-validator/"> <img src=  "https://www.w3.org/Icons/valid-css.png" alt="Critic" /> </a>
+        </div>
+    </div>
+	
+	</body>
+</html>
