@@ -1,0 +1,42 @@
+<!--
+Name: Yasser Alsaif
+	homework 3  the guessing game
+			  html file
+-->
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<link rel="stylesheet" type="text/css" href="guessingGame.css"> <!-- linking the styling file css-->
+	<script src="guessingGame.js"></script> <!-- linking the script file-->
+<title>Guess a Number Game</title>
+</head>
+<body>
+<h1>Guess a Number Game</h1> <!-- main header-->
+
+<div class="flex1"> <!-- class for horizontal divs-->
+	<div id="paragraph">
+		<p>Welcom to the CSC 337 guess a number game page! Enter a range into the boxes below and hit the start button to begin the game.</p>
+	</div>
+	<div id="rightbox"> <!-- the 2 input boxes min and max -->
+		Minimum: <input type="number" name="Minimum" value="1" id="mini"> <br />
+		Maximum: <input type="number" name="Maximum" value="10" id="maxi">
+		<button id="start">start</button> <!-- start button-->
+	</div>
+</div>
+<div class="flex1"> <!--class for horizontal divs-->
+
+	<div class="bottom1"> <!--this class to get 2 div inside-->
+		Your guess:<input type="text" name="guess" id="gnume"> <!-- input box for the guess-->
+		<button id="guess"> guess!</button>
+	</div>
+
+	<div class="bottom1">
+		<p id="previous">Your previous guesses:
+		</p>
+		<p id="result"></p> <!--here where the previous guesses show up-->
+	</div>
+
+</div>
+</body>
+</html>

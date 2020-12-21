@@ -1,0 +1,50 @@
+/*Name: Yasser Alsaif
+	homework 3  the guessing game
+			  styling file       */
+
+body{ /* body spec*/
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 18pt;
+	margin: 0pt; 
+	background-color: #CDF7FB;
+}
+
+h1 { /* the main header spec*/
+	font-size: 72pt;
+	margin: 0px;
+}
+
+.flex1 { /* to make 2 divs as horizontally align to each other*/
+	display: flex;
+	flex-direction: row;
+}
+
+#paragraph { /* main paragraph */
+	width: 60%;
+	margin-left: 10px;
+}
+
+#rightbox { /* box for min and max*/
+	width: 20%;
+	background-color: #18D8ED;
+	padding: 30px;
+	position: absolute;
+	right: 0px;
+
+}
+
+.bottom1 { /*  margin for the 2 botom divs*/
+	margin-left: 60px;
+}
+
+#previous { /*  paragraph spec of the previous guess */
+	font-size: 20pt;
+	font-weight: 700;
+	margin-top: 0pt;
+}
+
+
+
+
+
+
