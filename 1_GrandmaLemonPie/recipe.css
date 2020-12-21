@@ -1,0 +1,35 @@
+h1 {
+font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+color: #A4A400;
+font-size: 22pt ;
+font-weight: 700;
+text-align: center;
+background-color: #F0F0F0;
+text-decoration: underline;
+}
+h3 {
+  font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+  color: #A4A400;
+  font-size: 18pt ;
+  font-weight: 400;
+  text-align: left;
+  background-color: #F0F0F0;
+text-decoration: underline;
+}
+body {
+font-family: Georgia, Garamond, serif;
+font-size: 11pt;
+background-color: white;
+margin: 11em;
+background-image: url(silverware.jpg);
+}
+p {
+  font-family: Georgia, Garamond, serif;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-style: italic;
+  text-align: left;
+  background-color: #FFFFA8;
+  width: 90.5%;
+}
