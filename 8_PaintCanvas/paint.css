@@ -1,0 +1,62 @@
+/*Name:Yasser
+	Hw9: paint
+	css file
+*/
+
+body {
+    /* setup for the body*/
+    font-family: Helvetica, sans-serif;
+    color: white;
+    background-color: #222222;
+}
+
+#maindiv{
+    /* main div as flex to make divs side by side*/
+    display: flex;
+    justify-content: center;
+}
+
+#P_M {
+    /* felx-end to make the items of the plus and minus be in the end of the flex*/
+    display: flex;
+    margin: 15px; 
+    margin-top: 0; 
+    align-items: flex-end;
+}
+
+#title{
+    /* title properties*/
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+#pencanvas {
+    /* pensize canvas margin*/
+    margin: 5px; 
+}
+
+#colorscanvas {
+    /* the colors canvas margin*/
+    margin: 15px; 
+}
+
+#p{
+    /* the paragraph margin only on the left*/
+    margin-left: 15px;
+}
+
+#options {
+    /* option mode div felx as column to make divs ordered from top to bottom*/
+    margin: 15px;
+    margin-top: 40px;  
+    display: flex; 
+    flex-direction: column; 
+}
+
+#options > button {
+    /* marging for the mode buttons and width*/
+    margin: 5px; 
+    width: 80px; 
+}

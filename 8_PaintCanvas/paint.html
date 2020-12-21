@@ -1,0 +1,46 @@
+<!--Name:Yasser
+	Hw9: paint
+	html file
+-->
+<!DOCTYPE html>
+<html lang="en-us">
+
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="paint.css" />
+		<script src="paint.js"></script>
+		<title>Paint</title>
+	</head>
+	<body>
+		<!--title on top of the page-->
+	<p id = "title">CSC 337 Paint</p>
+	<!--main div thats holds all other divs-->
+	<div id = "maindiv">
+		<!--main canvas-->
+		<div><canvas id = "canvas" width="700" height="500"></canvas></div>
+		<div>
+			<!--colors canvas for picking colors-->
+            <div><canvas id = "colorscanvas" width="100" height="100"></canvas></div>
+			<div id = "p">pen size:</div>
+			<!--plus and minus div-->
+            <div id = "P_M">
+				<!-- buttons for plus and minus-->
+            <div ><button id = "+">+</button></div>
+			<div ><button id = "-">-</button></div>
+			<!--the pencanvas that shows the size of the pen-->
+                <canvas id = "pencanvas" width="50" height="50"></canvas>
+			</div>
+			<!--div for all options button-->
+            <div id = "options">
+				<!--buttons for modes-->
+                <button id = "pen">pen</button>
+                <button id = "circles">circles</button>
+                <button id = "squares">squares</button>
+                <button id = "lines">lines</button>
+                <button id = "clear">clear</button>
+            </div>
+		</div>
+	</div>
+		
+	</body>
+</html>
