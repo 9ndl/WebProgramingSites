@@ -1,0 +1,28 @@
+if(mode == "books") {
+		var bookArray = []; 
+		var booklist = {}; 
+		let files = [];
+		console.log(__dirname+"/books")
+		files = fs.readdirSync(__dirname+"/books");
+
+		console.log(files[1]); 
+
+		for(var j = 1; j < files.length; j++){
+			file_name = "books/" + files[j] + "/info.txt";
+			EntireFile = read_file(file_name); 
+
+			line = build_jsontitle(EntireFile); 
+			var title = {}; 
+			title["title"] = line;
+			title["folder"] = files[j]; 
+
+			bookArray.push(title); 
+
+			console.log(bookArray); 
+			//bookArray[j] = title; 
+		} 
+		j = 0; 
+		booklist["books"] = bookArray; 
+
+		console.log(JSON.stringify(booklist)); 
+		res.send(JSON.stringify(booklist)); 
