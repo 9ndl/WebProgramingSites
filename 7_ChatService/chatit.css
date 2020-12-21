@@ -1,0 +1,56 @@
+/*Name: Yasser Alsaif
+  Hw9: chatit
+  chatit.css
+*/
+.TextName {
+    /*
+	to make the name bold
+*/
+    font-weight: bold;
+}
+#box{
+    /*
+	creating the main box properties
+*/
+    border: 2px solid;
+    border-radius: 20px;
+    width: 75%;
+    height: 75%;
+    justify-content: center;
+    padding: 2px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+/*
+	the send box properties
+*/
+#sendbox{
+    position: absolute;
+    bottom: 5px;
+    border: 1px;
+    border-radius: 20px;
+    width: 100%;
+    text-align: center;
+    background-color: #ccc;
+    height: 5%;
+}
+/*
+	text box properties
+*/
+#texts{
+    background-image: url("backround.jpg");
+    border: 1px solid;
+    padding:5px;
+    height: 78%;
+    overflow: auto;
+}
+/*
+	for the message after sending was successful
+*/
+#mess{
+    text-align: center;
+}
