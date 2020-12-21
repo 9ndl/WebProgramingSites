@@ -1,0 +1,51 @@
+<!--CSC 337 Final Project 
+    Name: Crave
+    Authors: Yasser Alsaif and Matthew Heger
+    Descripton: The page will display all upcoming raves and you can search for upcoming raves by location or name.  
+-->
+
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <!--the icon of the page-->
+        <link rel="shortcut icon" href="shock.png">  <!--Set the url icon -->
+        <link rel="stylesheet" type="text/css" href="ravepage.css" />
+        <script src="RavePage.js"></script>
+        <!--title of the page-->
+        <title>Crave</title>
+    </head>
+    
+    <body>
+    <div id = "banner">  <!--Top Banner -->
+    <div id = "header">C<span id = "r">r</span><span id = "a">a</span><span id = "v">v</span><span id = "e">e</span></div>
+    </div>
+
+    <div id = "wrappercontent"> <!--Wrapper div for content  -->
+    <div id = "content"> <!--Main content of page div  -->
+        <div id = "aboutwrapper">
+        <p id="about">Welcome to the simplest and most reliable site to explore some of the world's most thrilling
+                upcoming raves.
+                Search for your favorite festival or browse through some of the featured raves! Remember <strong id = "Peace">Peace,</strong> <strong id = "Love">Love,</strong> and
+                <strong id = "Unity">Unity.</strong> 
+        </p>
+        </div>
+
+        <div id = "searchbar"> <!--Search bar div -->
+        <input type="text" placeholder = "Crave it"  title = "Please enter valid input" id = "searchinput">
+        <button id = "search" >Explore</button>
+        <input type="radio" name="search" value="location" checked> location
+        <input type="radio" name="search" value="rave"> rave
+        </div> 
+        
+    <div id = "ravebox"> <!--div to hold all featured raves -->
+    </div>
+    <div id = "singlediv">  <!--div show one single rave -->
+        <div id = "info">  </div>
+        <div id = "lineup"> </div>
+    </div>
+</div>
+</div> 
+
+    </body>
+</html>

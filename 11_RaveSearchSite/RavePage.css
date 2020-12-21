@@ -1,0 +1,159 @@
+/*
+    CSC 337 Final Project 
+    Name: Crave
+    Authors: Yasser Alsaif and Matthew Heger
+    Descripton: The page will display all upcoming raves and you can search for upcoming raves by location or name.  
+*/
+
+
+body{ /* properties for entire body of page*/ 
+    font-family: "Comic Sans MS", cursive, sans-serif; 
+    text-align: center;
+    margin: 0px; 
+    background-image: url("crowd.gif"); 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+#Peace { /* word colors in desc.*/ 
+    color: blue; 
+}
+
+#Love {
+    color: red; 
+}
+#Unity {
+    color: orange; 
+}
+
+#banner { /* properties for top banner*/ 
+    position: relative;  
+    background-image: url("RainbowBanner.jpg"); 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 200px; 
+    margin: 0px; 
+    padding: 0px; 
+}
+#header { /* properties for the header text*/ 
+    display: inline-block; 
+    color: white; 
+    font-size: 125pt;
+    padding-top: 0px;
+    margin: auto;
+}
+
+#wrappercontent { /* div to center content */ 
+    justify-content: center; 
+}
+
+#content {  /* Properties for main page content */ 
+    background-color: white; 
+    margin: 30px; 
+    display: inline-block; 
+    border: black solid 2px; 
+    width: 80%; 
+    justify-content: center; 
+}
+
+#about { /* description text*/ 
+    font-family: "Comic Sans MS", cursive, sans-serif; 
+    display: inline-block; 
+    font-size: 20pt; 
+    text-align: center; 
+    padding: 50px; 
+    width: 80%; 
+}
+
+#searchbar { /* Search Bar Properties */ 
+    display: inline-block; 
+    font-size: 20pt;
+    width: 80%; 
+   /* border: black solid 5px; 
+    border-radius: 50px; */
+}
+
+#search {
+    font-family: "Comic Sans MS", cursive, sans-serif; 
+    background-color: lightgray; 
+    border: 2px solid white;
+    border-radius: 40px;
+    width: 100px; 
+    height: 55px; 
+    font-size: 20px; 
+}
+
+#searchinput {
+    font-family: "Comic Sans MS", cursive, sans-serif; 
+    height: 50px; 
+    width: 300px; 
+    font-size: 20px; 
+}
+.mainimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: lightgray solid 5px; 
+    border-radius: 40px; 
+    width: 250px;
+    height: 200px; 
+}
+
+#ravebox {  /* Properties for each featured rave on front page */ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center; 
+    display: flex;
+    flex-wrap: wrap; 
+    padding: 40px; 
+    width: 80%; 
+}
+
+.ravediv {
+    background-color: lightgray; 
+    border: white solid 5px; 
+    border-radius: 50px; 
+    margin: 20px; 
+    padding: 10px; 
+    width: 250px; 
+}
+
+.name {
+    font-family: "Comic Sans MS", cursive, sans-serif; 
+    padding-bottom: 10px; 
+    font-size: 15pt; 
+}
+ 
+#coverimage { /* Images on main page */ 
+    width: 450px; 
+    height: 375px; 
+    border: white solid 5px; 
+    border-radius: 50px; 
+}
+
+#lineupimage {  /*Properties for image on single div  */ 
+    width: 700px; 
+    height: 1000px; 
+    padding: 50px; 
+}
+#info { 
+    display: flex; 
+    justify-content: center; 
+}
+
+.titleinfo {
+    padding: 10px; 
+    font-size: 18pt; 
+    text-align: left; 
+}
+
+#description { 
+    padding-top: 90px; 
+    justify-content: left; 
+}
+
+#lineup {
+    display: inline-block; 
+}
+
