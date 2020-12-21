@@ -1,0 +1,457 @@
+body {
+	margin: 0px;
+	background-image: url(http://allisonobourn.com/images/moviebg.png);
+}
+#topb {
+background-image: url(http://allisonobourn.com/images/rancidbannerbg.png);
+	top: 0px;
+}
+
+#banner { /* the banner*/
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+h1 {
+	font-family: Georgia, "Times New Roman", serif;
+	text-align: center;
+	font-size: 24pt;
+	font-weight: bold;
+	text-shadow: 3px 3px 0px #999999;
+}
+
+#main {    /* main box*/
+	margin-right: auto;
+	margin-left: auto;
+	box-shadow: 5px 5px 5px gray;
+	border-radius: 20px;
+	width: 800px;
+	background-color: #A2B964;
+}
+
+/* here all comment 
+i didi them with different numbers because the checker complained about duplicit ids 
+*/
+
+
+#comment1 {
+	background-color: #FFFFFF;
+	border: solid 2px #CCCCCC;
+	border-radius: 20px;
+
+}
+#comment2 {
+	background-color: #FFFFFF;
+	border: solid 2px #CCCCCC;
+	border-radius: 20px;
+
+}
+#comment3 {
+	background-color: #FFFFFF;
+	border: solid 2px #CCCCCC;
+	border-radius: 20px;
+
+}
+#comment4 {
+	background-color: #FFFFFF;
+	border: solid 2px #CCCCCC;
+	border-radius: 20px;
+
+}
+#comment5 {
+	background-color: #FFFFFF;
+	border: solid 2px #CCCCCC;
+	border-radius: 20px;
+
+}
+#comment6 {
+	background-color: #FFFFFF;
+	border: solid 2px #CCCCCC;
+	border-radius: 20px;
+
+}
+#comment7 {
+	background-color: #FFFFFF;
+	border: solid 2px #CCCCCC;
+	border-radius: 20px;
+
+}
+#comment8 {
+	background-color: #FFFFFF;
+	border: solid 2px #CCCCCC;
+	border-radius: 20px;
+
+}
+#comment9 {
+	background-color: #FFFFFF;
+	border: solid 2px #CCCCCC;
+	border-radius: 20px;
+
+}
+#comment10 {
+	background-color: #FFFFFF;
+	border: solid 2px #CCCCCC;
+	border-radius: 20px;
+
+}
+
+
+/* banner top of the hox*/
+#maintop {
+	background-image: url(http://allisonobourn.com/images/rottenlargebg.png);
+	border-top-left-radius: 20px;
+	width: 550px;
+	margin: 0px;
+	padding: 0px;
+	height: 83px
+}
+#largeR {
+	/*border-top-right-radius: 20px;*/
+	border-top-left-radius: 20px;
+
+}
+#rate{
+	margin: 0px;
+	position: relative;
+	top: -10px;
+}
+/* the review section*/
+#Review {
+	display: flex; ;
+	width: 550px;
+	background-color: #EEEEEE;
+}
+/* collumn 1*/
+#c1 {
+	width: 47%;
+	margin:10px;
+}
+/* collumn*/
+#c2 {
+	width: 47%;
+	margin:10px;
+}
+
+/* the right area*/
+#rightarea{
+	/*position: absolute;
+	right: 240px;
+	top: 129px;*/
+	float:right;
+	position: relative;
+	top: -1335px;
+	background-color: #A2B964;
+	width: 250px;
+	border-top-right-radius: 20px;
+
+}
+
+/* page number*/
+#pageN {
+text-align: center;
+position: relative;
+top: -3px;
+margin: 5px;
+font-family: Arial, "Times New Roman", serif;
+}
+
+/* the turtle pic*/
+#tpic {
+	border-top-right-radius: 20px;
+}
+
+
+/* all quotes in order*/
+#quote1 {
+	font-size: 10pt;
+	font-family: Georgia, "Times New Roman", serif;
+	padding: 8px;
+	margin: 0px;
+}
+#quote2 {
+	font-size: 10pt;
+	font-family: Georgia, "Times New Roman", serif;
+	padding: 8px;
+	margin: 0px;
+}
+#quote3 {
+	font-size: 10pt;
+	font-family: Georgia, "Times New Roman", serif;
+	padding: 8px;
+	margin: 0px;
+}
+#quote4 {
+	font-size: 10pt;
+	font-family: Georgia, "Times New Roman", serif;
+	padding: 8px;
+	margin: 0px;
+}
+#quote5 {
+	font-size: 10pt;
+	font-family: Georgia, "Times New Roman", serif;
+	padding: 8px;
+	margin: 0px;
+}
+#quote6 {
+	font-size: 10pt;
+	font-family: Georgia, "Times New Roman", serif;
+	padding: 8px;
+	margin: 0px;
+}
+#quote7 {
+	font-size: 10pt;
+	font-family: Georgia, "Times New Roman", serif;
+	padding: 8px;
+	margin: 0px;
+}
+#quote8 {
+	font-size: 10pt;
+	font-family: Georgia, "Times New Roman", serif;
+	padding: 8px;
+	margin: 0px;
+}
+#quote9 {
+	font-size: 10pt;
+	font-family: Georgia, "Times New Roman", serif;
+	padding: 8px;
+	margin: 0px;
+}
+#quote10 {
+	font-size: 10pt;
+	font-family: Georgia, "Times New Roman", serif;
+	padding: 8px;
+	margin: 0px;
+}
+/* all icon  tomato and rotten*/
+#icon1 {
+	float: left;
+	padding-right: 5px;
+}
+#icon2 {
+	float: left;
+	padding-right: 5px;
+}
+#icon3 {
+	float: left;
+	padding-right: 5px;
+}
+#icon4 {
+	float: left;
+	padding-right: 5px;
+}
+#icon5 {
+	float: left;
+	padding-right: 5px;
+}
+#icon6{
+	float: left;
+	padding-right: 5px;
+}
+#icon7 {
+	float: left;
+	padding-right: 5px;
+}
+#icon8 {
+	float: left;
+	padding-right: 5px;
+}
+#icon9 {
+	float: left;
+	padding-right: 5px;
+}
+#icon10 {
+	float: left;
+	padding-right: 5px;
+}
+
+/* paragraphs in the comment section*/
+#paragraph1{
+	padding: 8px;
+	margin: 0px;
+}
+#paragraph2{
+	padding: 8px;
+	margin: 0px;
+}
+#paragraph3{
+	padding: 8px;
+	margin: 0px;
+}
+#paragraph4{
+	padding: 8px;
+	margin: 0px;
+}
+#paragraph5{
+	padding: 8px;
+	margin: 0px;
+}
+#paragraph6{
+	padding: 8px;
+	margin: 0px;
+}
+#paragraph7{
+	padding: 8px;
+	margin: 0px;
+}
+#paragraph8{
+	padding: 8px;
+	margin: 0px;
+}
+#paragraph9{
+	padding: 8px;
+	margin: 0px;
+}
+#paragraph10{
+	padding: 8px;
+	margin: 0px;
+}
+
+
+/* the critic icons*/
+#critic1 {
+padding-right: 5px;
+padding-left: 5px;
+float: left;
+}
+#critic2 {
+padding-right: 5px;
+padding-left: 5px;
+float: left;
+}
+#critic3 {
+padding-right: 5px;
+padding-left: 5px;
+float: left;
+}
+#critic4 {
+padding-right: 5px;
+padding-left: 5px;
+float: left;
+}
+#critic5 {
+padding-right: 5px;
+padding-left: 5px;
+float: left;
+}
+#critic6 {
+padding-right: 5px;
+padding-left: 5px;
+float: left;
+}
+#critic7 {
+padding-right: 5px;
+padding-left: 5px;
+float: left;
+}
+#critic8 {
+padding-right: 5px;
+padding-left: 5px;
+float: left;
+}
+#critic9 {
+padding-right: 5px;
+padding-left: 5px;
+float: left;
+}
+#critic10 {
+padding-right: 5px;
+padding-left: 5px;
+float: left;
+}
+
+
+/* the personal info*/
+#person1 {
+	font-size: 10pt;
+font-family: Arial, "Times New Roman", serif;
+margin-top: 15px;
+margin-bottom: 20pt;
+}
+
+#person2 {
+	font-size: 10pt;
+font-family: Arial, "Times New Roman", serif;
+margin-top: 15px;
+margin-bottom: 20pt;
+}
+#person3 {
+	font-size: 10pt;
+font-family: Arial, "Times New Roman", serif;
+margin-top: 15px;
+margin-bottom: 20pt;
+}
+#person4 {
+	font-size: 10pt;
+font-family: Arial, "Times New Roman", serif;
+margin-top: 15px;
+margin-bottom: 20pt;
+}
+#person5 {
+	font-size: 10pt;
+font-family: Arial, "Times New Roman", serif;
+margin-top: 15px;
+margin-bottom: 20pt;
+}
+#person6 {
+	font-size: 10pt;
+font-family: Arial, "Times New Roman", serif;
+margin-top: 15px;
+margin-bottom: 20pt;
+}
+#person7 {
+	font-size: 10pt;
+font-family: Arial, "Times New Roman", serif;
+margin-top: 15px;
+margin-bottom: 20pt;
+}
+#person8 {
+	font-size: 10pt;
+font-family: Arial, "Times New Roman", serif;
+margin-top: 15px;
+margin-bottom: 20pt;
+}
+#person9 {
+	font-size: 10pt;
+font-family: Arial, "Times New Roman", serif;
+margin-top: 15px;
+margin-bottom: 20pt;
+}
+
+#person10 {
+	font-size: 10pt;
+font-family: Arial, "Times New Roman", serif;
+margin-top: 15px;
+margin-bottom: 20pt;
+}
+
+dl {
+margin: 10pt;
+font-size: 10pt;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+dt {
+font-size:10pt;
+font-weight: bold;
+margin-top: 10pt;
+}
+
+#validation{
+position: fixed;
+bottom: 0;
+right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
